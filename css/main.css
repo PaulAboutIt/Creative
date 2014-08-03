@@ -1,0 +1,64 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Helvetica' sans-serif;
+        
+}
+.message {
+    color: #FFF;
+    position: absolute;
+    bottom: 10%;
+    left: 14%;
+}
+h2 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+p {
+    font-size: 39px;
+    line-height: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+a {
+    font-size: 24px;
+    color: #fff;
+}
+a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+.logo {
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    position: absolute;
+    bottom: 95px;
+    left: -110px;
+    width: 240px;
+    height: 240px;
+    z-index: -1;
+}
+.textContent { display:none }
+
+
+
+
+
+
+
+
+
+
