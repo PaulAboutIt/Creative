@@ -53,8 +53,27 @@ a:hover {
 }
 .textContent { display:none }
 
-
-
+@media (max-width: 600px) {
+    .logo {
+        left: -50px;
+        bottom: 55px;
+    }
+    h2 {
+        font-size: 50px
+    }
+    p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    a {
+        font-size: 20px;
+        color: #ebebeb;
+    }
+    .message{
+        left: 10px;
+        bottom: 10px;
+    }
+}
 
 
 
